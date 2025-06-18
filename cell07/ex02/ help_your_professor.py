@@ -1,19 +1,16 @@
-def average(grades):
-    return sum(grades.values() / len(grades)
-               
-class_B = {
-    "g": 1,
-    "e": 5,
-    "n": 8,
-    "o": 9
-} 
-
-class_C + {
-    "p": 20,
-    "u": 15,
-    "m": 10,
-    "x": 12
+def average(scores):
+    return sum(scores.values()) / len(scores)
+class_3B = {
+    "marine": 18,
+    "jean": 15,
+    "coline": 8,
+    "luc": 9
 }
-
-print(f"Average for class B: {average(class_B)}.")
-print(f"Average for class C: {average(class_c)}.")
+class_3C = {
+    "quentin": 17,
+    "julie": 15,
+    "marc": 8,
+    "stephanie": 13
+}
+print(f"Average for class 3B: {average(class_3B)}.")
+print(f"Average for class 3C: {average(class_3C)}.")

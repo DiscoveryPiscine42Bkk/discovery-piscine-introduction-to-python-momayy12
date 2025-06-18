@@ -3,10 +3,10 @@ def array_of_names(name_dict):
     for first, last in name_dict.items():
         full_name = f"{first.capitalize()} {last.capitalize()}"
         full_name.append(full_name)
-    return full_names
+    return full_name
 
 persons = {
-    "sawittcha": "jiamthanunkul" , 
+    "sawittcha": "jiamthanunkul", 
     "chutinun": "yungmak",
     "geno": "pum",
     "pum": "geno"

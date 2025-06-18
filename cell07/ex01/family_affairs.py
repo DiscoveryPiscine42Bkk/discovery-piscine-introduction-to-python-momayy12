@@ -1,12 +1,13 @@
-def genopum(family):
-    return list(filter(lamba name: family[name] == "pum", family.keys()))
+def find_the_redheads(family):
+    return list(filter(lambda name: family[name] == 'red', family))
 
+# ตัวอย่างการใช้งาน
 dupont_family = {
-    "pum": "pum",
-    "geno": "geno",
-    "mairu": "tem",
-    "chutinun": "pum",
-    "yungmak": "pum"
+    "florian": "red",
+    "sarrie": "blond",
+    "virginie": "brunette",
+    "david": "red",
+    "franck": "red"
 }
 
-print(genopum(dupont_family))
+print(find_the_redheads(dupont_family))
